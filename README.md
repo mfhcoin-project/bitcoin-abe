@@ -1,5 +1,5 @@
 Abe: a free block chain browser for Bitcoin-based currencies.
-https://github.com/bitcoin-abe/bitcoin-abe
+https://github.com/mfhcoin-project/mfhcoin-blockexplorer
 
     Copyright(C) 2011,2012,2013 by Abe developers.
     License: GNU Affero General Public License, see the file LICENSE.txt.
@@ -52,7 +52,7 @@ safe.  Abe may need some fixes to avoid skipping blocks while current
 and future Bitcoin versions run.
 
 NovaCoin and CryptoCash support depends on the ltc_scrypt module
-available from https://github.com/CryptoManiac/bitcoin-abe (see
+available from https://github.com/mfhcoin-project/mfhcoin-blockexplorer (see
 README-SCRYPT.txt).
 
 Hirocoin (and any other X11) support depends on the xcoin_hash module

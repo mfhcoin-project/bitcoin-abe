@@ -41,11 +41,11 @@ __version__ = version.__version__
 
 ABE_APPNAME = "Abe"
 ABE_VERSION = __version__
-ABE_URL = 'https://github.com/bitcoin-abe/bitcoin-abe'
+ABE_URL = 'https://github.com/mfhcoin-project/mfhcoin-blockexplorer'
 
 COPYRIGHT_YEARS = '2011'
 COPYRIGHT = "Abe developers"
-COPYRIGHT_URL = 'https://github.com/bitcoin-abe'
+COPYRIGHT_URL = 'https://github.com/mfhcoin-project'
 
 DONATIONS_BTC = '1PWC7PNHL1SgvZaN7xEtygenKjWobWsCuf'
 DONATIONS_NMC = 'NJ3MSELK1cWnqUa6xhF2wUYAnz3RSrWXcK'
