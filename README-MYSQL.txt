@@ -3,18 +3,18 @@ Abe setup for MySQL: 8 easy steps.
 1. Run the Bitcoin client once.  It'll create a .bitcoin directory in
 your home directory, along with some other necessary files.
 
-2. Install Python 2.7 and pycrypto and python-mysqldb.  The Debian/Ubuntu packages 
-are python2.7, python-crypto, and python-mysqldb. You can use PIP 
+2. Install Python 2.7 and pycrypto and python-mysqldb.  The Debian/Ubuntu packages
+are python2.7, python-crypto, and python-mysqldb. You can use PIP
 (python package manager) to get pycrypto; mysqldb requires (Debian/Ubuntu)
 sudo apt-get install python-mysqldb
 
 3. Install MySQL 5.x server and MySQL-Python.  On Debian/Ubuntu:
-sudo apt-get install mysql-client mysql-server
+sudo apt-get install mysql-client mysql-server -y
 
 4. Configure the MySQL instance with InnoDB engine support.  If you
-installed with Debian/Ubuntu then InnoDB is enabled by default.  
+installed with Debian/Ubuntu then InnoDB is enabled by default.
 To check for InnoDB support, issue "SHOW ENGINES" and look in the output
-for "InnoDB" with "YES" next to it.  If "skip-innodb" appears in the server 
+for "InnoDB" with "YES" next to it.  If "skip-innodb" appears in the server
 configuration (my.cnf or my.ini) then remove it and restart the server.
 
 5. Log into MySQL as root (e.g.: mysql -u root) and issue the following,
@@ -173,4 +173,3 @@ Some ideas on enhancements for TokuDB:
 - Backup script using SELECT INTO OUTFILE / LOAD DATA INFILE (fatser)
 - ANALYZE script
 - Script to check FK relations?
-
